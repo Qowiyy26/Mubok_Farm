@@ -350,6 +350,9 @@ ASALocalRun/
 # Local History for Visual Studio
 .localhistory/
 
+# Mubok Farm administrator credentials and product listings
+/data/
+
 # BeatPulse healthcheck temp database
 healthchecksdb
 

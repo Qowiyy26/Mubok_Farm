@@ -114,6 +114,7 @@
 
     if (typeof emailjs === 'undefined') {
       showError('Email service failed to load. Please refresh the page and try again.');
+      addMailFallback({ name: name, email: email, phone: phone, message: message });
       console.error('EmailJS SDK not loaded. Check your internet connection or ad-blocker.');
       return;
     }
@@ -134,6 +135,7 @@
 
     var params = {
       title   : 'Mubok Farm — New Enquiry',
+      to_email: 'mubokfarms1215@gmail.com',
       name    : name,
       email   : email,
       phone   : phone ? phone : 'Not provided',
@@ -173,7 +175,8 @@
 
         text.textContent = 'Failed — try again';
         btn.disabled     = false;
-        showError('Message failed to send.' + hint + ' Or call us directly.');
+        showError('Message failed to send.' + hint + ' You can still email us directly:');
+        addMailFallback(params);
 
         setTimeout(function () {
           text.textContent = 'Send Message';
@@ -196,7 +199,27 @@
 
   function clearError() {
     var el = form.querySelector('.form-error');
-    if (el) el.style.display = 'none';
+    if (el) {
+      el.style.display = 'none';
+      var fallback = el.querySelector('.mail-fallback');
+      if (fallback) fallback.remove();
+    }
+  }
+
+  function addMailFallback(details) {
+    var error = form.querySelector('.form-error');
+    if (!error) return;
+    var subject = encodeURIComponent('Mubok Farm — New Enquiry');
+    var body = encodeURIComponent(
+      'Name: ' + details.name + '\nEmail: ' + details.email +
+      '\nPhone: ' + (details.phone || 'Not provided') + '\n\n' + details.message
+    );
+    var link = document.createElement('a');
+    link.className = 'mail-fallback';
+    link.href = 'mailto:mubokfarms1215@gmail.com?subject=' + subject + '&body=' + body;
+    link.textContent = 'Open an email to Mubok Farms';
+    link.style.cssText = 'display:block;margin-top:.45rem;color:inherit;font-weight:700;text-decoration:underline';
+    error.appendChild(link);
   }
 
   function isValidEmail(val) {

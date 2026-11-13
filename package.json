@@ -1,0 +1,1 @@
+{"name":"mubok-farm","version":"1.0.0","private":true,"type":"module","scripts":{"dev":"node dev.mjs","server":"node server.mjs","build":"vite build","start":"node server.mjs"},"dependencies":{"react":"latest","react-dom":"latest"},"devDependencies":{"vite":"latest"}}
