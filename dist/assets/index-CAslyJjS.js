@@ -466,6 +466,7 @@ Error generating stack: `+e.message+`
           <article class="animal-photo animal-photo-turkeys" data-aos><img src="/images/mubok-turkey-tom.png" alt="Tom turkey displaying its fan tail" loading="lazy"/><span>14 / TURKEY TOM</span><h3>Proud farm<br/><em>birds.</em></h3></article>
           <article class="animal-photo animal-photo-turkeys" data-aos><img src="/images/mubok-turkeys-toms.png" alt="Two tom turkeys displaying their fan tails" loading="lazy"/><span>15 / TURKEY TOMS</span><h3>A pair of<br/><em>turkeys.</em></h3></article>
           <article class="animal-photo animal-photo-guinea" data-aos><img src="/images/mubok-guinea-fowl.jpg" alt="Helmeted guinea fowl standing together near water" loading="lazy"/><span>16 / GUINEA FOWL</span><h3>Guinea fowl<br/><em>flock.</em></h3></article>
+          <article class="animal-photo animal-photo-guinea" data-aos><img src="/images/mubok-guinea-fowl-pair.png" alt="Two guinea fowl in a green farm enclosure" loading="lazy"/><span>17 / GUINEA FOWL</span><h3>A pair in<br/><em>the farmyard.</em></h3></article>
         </div>
       </div>
     </section>

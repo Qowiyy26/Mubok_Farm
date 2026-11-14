@@ -1,7 +1,8 @@
 (function () {
   'use strict';
-  var SERVICE_ID  = 'service_r3o0k3e';
-  var TEMPLATE_ID = 'template_eq7tz74';
+  // Replace this public submission endpoint with the URL from the WebForms dashboard.
+  // Add and confirm mubokfarms1215@gmail.com as the email destination in that dashboard.
+  var WEBFORMS_ENDPOINT = 'https://send.webforms.to/wft_your_key';
 
 
 
@@ -83,6 +84,13 @@
 
   if (!form) return;
 
+  if (!WEBFORMS_ENDPOINT.endsWith('/wft_your_key')) form.action = WEBFORMS_ENDPOINT;
+
+  var startTimeField = document.getElementById('webformsStartTime');
+  var pageField = document.getElementById('webformsPage');
+  if (startTimeField) startTimeField.value = String(Date.now());
+  if (pageField) pageField.value = window.location.href;
+
   form.addEventListener('submit', function (e) {
     e.preventDefault();
 
@@ -112,17 +120,9 @@
     }
 
 
-    if (typeof emailjs === 'undefined') {
-      showError('Email service failed to load. Please refresh the page and try again.');
+    if (WEBFORMS_ENDPOINT.endsWith('/wft_your_key')) {
+      showError('The WebForms endpoint still needs to be added. Please email us directly for now:');
       addMailFallback({ name: name, email: email, phone: phone, message: message });
-      console.error('EmailJS SDK not loaded. Check your internet connection or ad-blocker.');
-      return;
-    }
-
-    /* — Check placeholders haven't been left in — */
-    if (TEMPLATE_ID === 'YOUR_TEMPLATE_ID') {
-      showError('Developer: Template ID not set in script.js. See setup instructions at the top of the file.');
-      console.error('⚠️  MUBOK FARM: Replace YOUR_TEMPLATE_ID in script.js with your real EmailJS Template ID.');
       return;
     }
 
@@ -133,20 +133,35 @@
     btn.disabled    = true;
     text.textContent = 'Sending…';
 
+    var replyTo = document.getElementById('webformsReplyTo');
+    if (replyTo) replyTo.value = email;
     var params = {
-      title   : 'Mubok Farm — New Enquiry',
-      to_email: 'mubokfarms1215@gmail.com',
-      name    : name,
-      email   : email,
-      phone   : phone ? phone : 'Not provided',
-      message : message
+      name: name,
+      email: email,
+      phone: phone || 'Not provided',
+      message: message,
+      _subject: 'New enquiry from the Mubok Farm website',
+      _replyto: email,
+      _start_time: startTimeField ? startTimeField.value : String(Date.now()),
+      _page: pageField ? pageField.value : window.location.href,
+      _gotcha: document.getElementById('webformsWebsite').value
     };
 
-    console.log('Sending to EmailJS:', SERVICE_ID, TEMPLATE_ID, params);
-
-    emailjs.send(SERVICE_ID, TEMPLATE_ID, params)
+    fetch(WEBFORMS_ENDPOINT, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      },
+      body: JSON.stringify(params)
+    })
       .then(function (response) {
-        console.log('EmailJS success:', response.status, response.text);
+        return response.json().then(function (data) {
+          if (!response.ok || !data.ok) throw new Error(data.message || 'Submission failed');
+          return data;
+        });
+      })
+      .then(function () {
         text.textContent        = 'Message Sent';
         btn.style.background    = 'var(--c-green-lt)';
         successMsg.classList.add('visible');
@@ -160,23 +175,11 @@
         }, 5000);
       })
       .catch(function (err) {
-        console.error('EmailJS failed:', err);
-
-        var hint = '';
-        if (err && err.status === 400) {
-          hint = ' (Error 400: Check your Template ID and that all template variables match.)';
-        } else if (err && err.status === 401) {
-          hint = ' (Error 401: Your Public Key is wrong. Check index.html → emailjs.init.)';
-        } else if (err && err.status === 404) {
-          hint = ' (Error 404: Service ID or Template ID not found. Double-check both.)';
-        } else if (err && err.status === 422) {
-          hint = ' (Error 422: Template variable mismatch. Make sure your template uses {{name}}, {{email}}, {{message}}, {{title}}, {{phone}}.)';
-        }
-
+        console.error('WebForms submission failed:', err);
         text.textContent = 'Failed — try again';
         btn.disabled     = false;
-        showError('Message failed to send.' + hint + ' You can still email us directly:');
-        addMailFallback(params);
+        showError('Message failed to send. Please email us directly:');
+        addMailFallback({ name: name, email: email, phone: phone, message: message });
 
         setTimeout(function () {
           text.textContent = 'Send Message';
