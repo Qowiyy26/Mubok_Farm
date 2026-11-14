@@ -358,7 +358,7 @@ const page = String.raw`<!-- ===== NAVBAR ===== -->
           </div>
 
           <div class="lv-card" data-aos>
-            <img class="lv-photo" src="/images/farm-goat.jpg" alt="Goat standing outdoors" loading="lazy"/>
+            <img class="lv-photo" src="/images/farm-goat.jpg" alt="A real herd of goats gathered together in a farm enclosure" loading="lazy"/>
             <div class="lv-icon">
               <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <ellipse cx="22" cy="28" rx="13" ry="9"/>
@@ -377,7 +377,7 @@ const page = String.raw`<!-- ===== NAVBAR ===== -->
           </div>
 
           <div class="lv-card" data-aos>
-            <img class="lv-photo" src="/images/farm-sheep.jpg" alt="Sheep in a pasture" loading="lazy"/>
+            <img class="lv-photo" src="/images/farm-sheep.jpg" alt="A flock of sheep with horned rams among the group" loading="lazy"/>
             <div class="lv-icon">
               <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <ellipse cx="22" cy="27" rx="13" ry="10"/>
@@ -446,8 +446,8 @@ const page = String.raw`<!-- ===== NAVBAR ===== -->
         </div>
         <div class="animal-photo-grid">
           <article class="animal-photo animal-photo-cattle" data-aos><img src="/images/farm-cattle.jpg" alt="Cattle grazing together in a pasture" loading="lazy"/><span>01 / COWS &amp; BULLS</span><h3>Strong roots.<br/><em>Healthy herds.</em></h3></article>
-          <article class="animal-photo animal-photo-goat" data-aos><img src="/images/farm-goat.jpg" alt="Goat standing outdoors on a farm" loading="lazy"/><span>02 / GOATS</span><h3>Does &amp; bucks.</h3></article>
-          <article class="animal-photo animal-photo-sheep" data-aos><img src="/images/farm-sheep.jpg" alt="Sheep in a green field" loading="lazy"/><span>03 / SHEEP &amp; RAMS</span><h3>Ewes &amp; rams.</h3></article>
+          <article class="animal-photo animal-photo-goat" data-aos><img src="/images/farm-goat.jpg" alt="A herd of goats gathered together in a farm enclosure" loading="lazy"/><span>02 / GOATS</span><h3>Does &amp; bucks.</h3></article>
+          <article class="animal-photo animal-photo-sheep" data-aos><img src="/images/farm-sheep.jpg" alt="A flock of sheep with prominent horned rams among the group" loading="lazy"/><span>03 / SHEEP &amp; RAMS</span><h3>Ewes &amp; rams.</h3></article>
           <article class="animal-photo animal-photo-ducks" data-aos><img src="/images/farm-ducks.jpg" alt="Ducks standing beside a river" loading="lazy"/><span>04 / DUCKS</span><h3>Ducks &amp; drakes.</h3></article>
           <article class="animal-photo animal-photo-chickens" data-aos><img src="/images/farm-chickens.jpg" alt="Hens and a rooster in a farmyard" loading="lazy"/><span>05 / CHICKENS</span><h3>Hens &amp; roosters.</h3></article>
           <article class="animal-photo animal-photo-turkeys" data-aos><img src="/images/farm-turkey.jpg" alt="Turkey standing in grass" loading="lazy"/><span>06 / TURKEYS</span><h3>Hens &amp; toms.</h3></article>
