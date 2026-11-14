@@ -1206,7 +1206,7 @@ body { background-image: radial-gradient(#b99a5220 .65px, transparent .65px); ba
 
 /* Public animal gallery and admin-managed farm shop */
 .animal-gallery { padding:var(--sp-7) 0; background:#f5f1e5; }
-.animal-photo-grid { display:grid; grid-template-columns:1.3fr .8fr .8fr; grid-template-rows:245px 245px; gap:12px; }
+.animal-photo-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); grid-auto-rows:245px; gap:12px; }
 .animal-photo { position:relative; isolation:isolate; overflow:hidden; padding:1.25rem; color:#fff; background:#183b2b; }
 .animal-photo::after { content:''; position:absolute; inset:0; z-index:-1; background:linear-gradient(0deg,rgba(5,24,17,.78),rgba(5,24,17,.02) 68%); }
 .animal-photo img { position:absolute; inset:0; z-index:-2; width:100%; height:100%; object-fit:cover; transition:transform .65s var(--ease); }
@@ -1215,7 +1215,7 @@ body { background-image: radial-gradient(#b99a5220 .65px, transparent .65px); ba
 .animal-photo h3 { position:absolute; left:1.25rem; bottom:1.15rem; font:600 clamp(1.45rem,2.3vw,2.25rem)/1 var(--ff-head); }
 .animal-photo h3 em { color:var(--c-gold-lt); }
 .animal-photo-cattle { grid-row:span 2; }
-.animal-photo-guinea { grid-column:2 / 4; }
+.animal-photo-guinea { grid-column:span 2; }
 .animal-photo-palms { grid-column:1 / -1; min-height:220px; }
 .animal-photo-guinea h3 { bottom:2.8rem; }
 .photo-credit { position:absolute; left:1.25rem; right:1rem; bottom:.55rem; color:rgba(255,255,255,.75); font-size:.57rem; line-height:1.35; }

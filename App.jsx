@@ -342,7 +342,7 @@ const page = String.raw`<!-- ===== NAVBAR ===== -->
         <div class="livestock-grid">
 
           <div class="lv-card" data-aos>
-            <img class="lv-photo" src="/images/farm-cattle.jpg" alt="Cattle grazing in a green pasture" loading="lazy"/>
+            <img class="lv-photo" src="/images/mubok-cattle-herd.png" alt="Mubok Farm cattle resting on green grass" loading="lazy"/>
             <div class="lv-icon">
               <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <path d="M10 21c0-2 1.5-4 3.5-5L16 15v-4h4v3.5l3-1h6l3 1V11h4v4l2.5 1c2 1 3.5 3 3.5 5v8c0 2-1 3.5-2.5 4.5V38h-5v-3H15v3h-5v-4.5C8.5 32.5 8 31 8 29v-8z"/>
@@ -358,7 +358,7 @@ const page = String.raw`<!-- ===== NAVBAR ===== -->
           </div>
 
           <div class="lv-card" data-aos>
-            <img class="lv-photo" src="/images/farm-goat.jpg" alt="A real herd of goats gathered together in a farm enclosure" loading="lazy"/>
+            <img class="lv-photo" src="/images/mubok-goat-buck.png" alt="Brown and white goat with curved horns" loading="lazy"/>
             <div class="lv-icon">
               <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <ellipse cx="22" cy="28" rx="13" ry="9"/>
@@ -377,7 +377,7 @@ const page = String.raw`<!-- ===== NAVBAR ===== -->
           </div>
 
           <div class="lv-card" data-aos>
-            <img class="lv-photo" src="/images/farm-sheep.jpg" alt="A flock of sheep with horned rams among the group" loading="lazy"/>
+            <img class="lv-photo" src="/images/mubok-sheep-ram.png" alt="White sheep and a horned ram at a farm" loading="lazy"/>
             <div class="lv-icon">
               <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <ellipse cx="22" cy="27" rx="13" ry="10"/>
@@ -445,14 +445,16 @@ const page = String.raw`<!-- ===== NAVBAR ===== -->
           <p class="section-desc">Meet our cows and bulls, goats, sheep and rams, chickens, ducks, turkeys, and guinea fowl. Ask us about current availability.</p>
         </div>
         <div class="animal-photo-grid">
-          <article class="animal-photo animal-photo-cattle" data-aos><img src="/images/farm-cattle.jpg" alt="Cattle grazing together in a pasture" loading="lazy"/><span>01 / COWS &amp; BULLS</span><h3>Strong roots.<br/><em>Healthy herds.</em></h3></article>
-          <article class="animal-photo animal-photo-goat" data-aos><img src="/images/farm-goat.jpg" alt="A herd of goats gathered together in a farm enclosure" loading="lazy"/><span>02 / GOATS</span><h3>Does &amp; bucks.</h3></article>
-          <article class="animal-photo animal-photo-sheep" data-aos><img src="/images/farm-sheep.jpg" alt="A flock of sheep with prominent horned rams among the group" loading="lazy"/><span>03 / SHEEP &amp; RAMS</span><h3>Ewes &amp; rams.</h3></article>
-          <article class="animal-photo animal-photo-ducks" data-aos><img src="/images/farm-ducks.jpg" alt="Ducks standing beside a river" loading="lazy"/><span>04 / DUCKS</span><h3>Ducks &amp; drakes.</h3></article>
-          <article class="animal-photo animal-photo-chickens" data-aos><img src="/images/farm-chickens.jpg" alt="Hens and a rooster in a farmyard" loading="lazy"/><span>05 / CHICKENS</span><h3>Hens &amp; roosters.</h3></article>
-          <article class="animal-photo animal-photo-turkeys" data-aos><img src="/images/farm-turkey.jpg" alt="Turkey standing in grass" loading="lazy"/><span>06 / TURKEYS</span><h3>Hens &amp; toms.</h3></article>
-          <article class="animal-photo animal-photo-guinea" data-aos><img src="/images/guinea-fowl.jpg" alt="Helmeted guinea fowl outdoors" loading="lazy"/><span>07 / GUINEA FOWL</span><h3>Male &amp; female<br/><em>guinea fowl.</em></h3><small class="photo-credit">Representative photo · <a href="https://commons.wikimedia.org/wiki/File:Guinea_fowls.jpg" target="_blank" rel="noreferrer">Fanny Schertzer / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by/2.5/" target="_blank" rel="noreferrer">CC BY 2.5</a></small></article>
-          <article class="animal-photo animal-photo-palms" data-aos><img src="/images/farm-palms.jpg" alt="Palm trees in a lush green field" loading="lazy"/><span>08 / FARM LANDSCAPE</span><h3>Palm trees.<br/><em>Green horizons.</em></h3></article>
+          <article class="animal-photo animal-photo-cattle" data-aos><img src="/images/mubok-cattle-herd.png" alt="Mubok Farm cattle resting together on grass" loading="lazy"/><span>01 / COWS &amp; BULLS</span><h3>Strong roots.<br/><em>Healthy herds.</em></h3></article>
+          <article class="animal-photo animal-photo-goat" data-aos><img src="/images/mubok-goat-buck.png" alt="Brown and white goat with curved horns" loading="lazy"/><span>02 / GOATS</span><h3>Does &amp; bucks.</h3></article>
+          <article class="animal-photo animal-photo-sheep" data-aos><img src="/images/mubok-sheep-ram.png" alt="White sheep with a horned ram at a farm" loading="lazy"/><span>03 / SHEEP &amp; RAMS</span><h3>Ewes &amp; rams.</h3></article>
+          <article class="animal-photo animal-photo-sheep" data-aos><img src="/images/mubok-white-ram.png" alt="White ram with large curved horns" loading="lazy"/><span>04 / RAM</span><h3>Strong, healthy<br/><em>breeding stock.</em></h3></article>
+          <article class="animal-photo animal-photo-sheep" data-aos><img src="/images/mubok-sheep-flock.png" alt="Group of white sheep feeding together" loading="lazy"/><span>05 / SHEEP FLOCK</span><h3>Raised with<br/><em>care.</em></h3></article>
+          <article class="animal-photo animal-photo-ducks" data-aos><img src="/images/farm-ducks.jpg" alt="Ducks standing beside a river" loading="lazy"/><span>06 / DUCKS</span><h3>Ducks &amp; drakes.</h3></article>
+          <article class="animal-photo animal-photo-chickens" data-aos><img src="/images/farm-chickens.jpg" alt="Hens and a rooster in a farmyard" loading="lazy"/><span>07 / CHICKENS</span><h3>Hens &amp; roosters.</h3></article>
+          <article class="animal-photo animal-photo-turkeys" data-aos><img src="/images/farm-turkey.jpg" alt="Turkey standing in grass" loading="lazy"/><span>08 / TURKEYS</span><h3>Hens &amp; toms.</h3></article>
+          <article class="animal-photo animal-photo-guinea" data-aos><img src="/images/guinea-fowl.jpg" alt="Helmeted guinea fowl outdoors" loading="lazy"/><span>09 / GUINEA FOWL</span><h3>Male &amp; female<br/><em>guinea fowl.</em></h3><small class="photo-credit">Representative photo · <a href="https://commons.wikimedia.org/wiki/File:Guinea_fowls.jpg" target="_blank" rel="noreferrer">Fanny Schertzer / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by/2.5/" target="_blank" rel="noreferrer">CC BY 2.5</a></small></article>
+          <article class="animal-photo animal-photo-palms" data-aos><img src="/images/farm-palms.jpg" alt="Palm trees in a lush green field" loading="lazy"/><span>10 / FARM LANDSCAPE</span><h3>Palm trees.<br/><em>Green horizons.</em></h3></article>
         </div>
       </div>
     </section>
