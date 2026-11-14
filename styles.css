@@ -1217,7 +1217,6 @@ body { background-image: radial-gradient(#b99a5220 .65px, transparent .65px); ba
 .animal-photo-cattle { grid-row:span 2; }
 .animal-photo-guinea { grid-column:span 2; }
 .animal-photo-palms { grid-column:1 / -1; min-height:220px; }
-.animal-photo-guinea h3 { bottom:2.8rem; }
 .photo-credit { position:absolute; left:1.25rem; right:1rem; bottom:.55rem; color:rgba(255,255,255,.75); font-size:.57rem; line-height:1.35; }
 .photo-credit a { text-decoration:underline; text-underline-offset:2px; }
 .product-shelf { padding:var(--sp-7) 0; color:var(--c-linen); background:var(--c-earth); }

@@ -396,7 +396,7 @@ const page = String.raw`<!-- ===== NAVBAR ===== -->
           </div>
 
           <div class="lv-card" data-aos>
-            <img class="lv-photo" src="/images/farm-ducks.jpg" alt="Ducks standing beside a river" loading="lazy"/>
+            <img class="lv-photo" src="/images/mubok-ducks.png" alt="Muscovy ducks resting together on the grass" loading="lazy"/>
             <div class="lv-icon">
               <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <ellipse cx="22" cy="29" rx="11" ry="9"/>
@@ -427,7 +427,7 @@ const page = String.raw`<!-- ===== NAVBAR ===== -->
           </div>
 
           <div class="lv-card" data-aos>
-            <img class="lv-photo" src="/images/guinea-fowl.jpg" alt="Helmeted guinea fowl outdoors" loading="lazy"/>
+            <img class="lv-photo" src="/images/mubok-guinea-fowl.jpg" alt="A small flock of helmeted guinea fowl in a natural setting" loading="lazy"/>
             <div class="lv-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 28c0-8 5-13 13-13s13 5 13 13-5 12-13 12-13-4-13-12z"/><path d="M24 15V9l5 4m-18 9-5-3m31 3 5-3M18 39v4m12-4v4"/><circle cx="29" cy="22" r="1" fill="currentColor"/></svg></div>
             <h4>Guinea Fowl</h4><p>Male and female guinea fowl. Contact us to ask about current availability.</p>
           </div>
@@ -448,10 +448,10 @@ const page = String.raw`<!-- ===== NAVBAR ===== -->
           <article class="animal-photo animal-photo-cattle" data-aos><img src="/images/farm-cattle.jpg" alt="Cattle grazing together in a pasture" loading="lazy"/><span>01 / COWS &amp; BULLS</span><h3>Strong roots.<br/><em>Healthy herds.</em></h3></article>
           <article class="animal-photo animal-photo-goat" data-aos><img src="/images/farm-goat.jpg" alt="A herd of goats gathered together in a farm enclosure" loading="lazy"/><span>02 / GOATS</span><h3>Does &amp; bucks.</h3></article>
           <article class="animal-photo animal-photo-sheep" data-aos><img src="/images/farm-sheep.jpg" alt="A flock of sheep with prominent horned rams among the group" loading="lazy"/><span>03 / SHEEP &amp; RAMS</span><h3>Ewes &amp; rams.</h3></article>
-          <article class="animal-photo animal-photo-ducks" data-aos><img src="/images/farm-ducks.jpg" alt="Ducks standing beside a river" loading="lazy"/><span>04 / DUCKS</span><h3>Ducks &amp; drakes.</h3></article>
+          <article class="animal-photo animal-photo-ducks" data-aos><img src="/images/mubok-ducks.png" alt="Muscovy ducks resting together on the grass" loading="lazy"/><span>04 / DUCKS</span><h3>Ducks &amp; drakes.</h3></article>
           <article class="animal-photo animal-photo-chickens" data-aos><img src="/images/farm-chickens.jpg" alt="Hens and a rooster in a farmyard" loading="lazy"/><span>05 / CHICKENS</span><h3>Hens &amp; roosters.</h3></article>
           <article class="animal-photo animal-photo-turkeys" data-aos><img src="/images/farm-turkey.jpg" alt="Turkey standing in grass" loading="lazy"/><span>06 / TURKEYS</span><h3>Hens &amp; toms.</h3></article>
-          <article class="animal-photo animal-photo-guinea" data-aos><img src="/images/guinea-fowl.jpg" alt="Helmeted guinea fowl outdoors" loading="lazy"/><span>07 / GUINEA FOWL</span><h3>Male &amp; female<br/><em>guinea fowl.</em></h3><small class="photo-credit">Representative photo · <a href="https://commons.wikimedia.org/wiki/File:Guinea_fowls.jpg" target="_blank" rel="noreferrer">Fanny Schertzer / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by/2.5/" target="_blank" rel="noreferrer">CC BY 2.5</a></small></article>
+          <article class="animal-photo animal-photo-guinea" data-aos><img src="/images/mubok-guinea-fowl.jpg" alt="A flock of helmeted guinea fowl together" loading="lazy"/><span>07 / GUINEA FOWL</span><h3>Male &amp; female<br/><em>guinea fowl.</em></h3></article>
           <article class="animal-photo animal-photo-palms" data-aos><img src="/images/farm-palms.jpg" alt="Palm trees in a lush green field" loading="lazy"/><span>08 / FARM LANDSCAPE</span><h3>Palm trees.<br/><em>Green horizons.</em></h3></article>
           <article class="animal-photo animal-photo-goat" data-aos><img src="/images/mubok-goat-buck.png" alt="Brown and white goat with curved horns" loading="lazy"/><span>09 / GOAT</span><h3>Curious and<br/><em>strong.</em></h3></article>
           <article class="animal-photo animal-photo-sheep" data-aos><img src="/images/mubok-sheep-ram.png" alt="White sheep and a horned ram at a farm" loading="lazy"/><span>10 / SHEEP &amp; RAM</span><h3>Flock at<br/><em>the farm.</em></h3></article>
@@ -460,7 +460,7 @@ const page = String.raw`<!-- ===== NAVBAR ===== -->
           <article class="animal-photo animal-photo-cattle" data-aos><img src="/images/mubok-cattle-herd.png" alt="Red cattle resting together on green grass" loading="lazy"/><span>13 / CATTLE</span><h3>Relaxed in<br/><em>the pasture.</em></h3></article>
           <article class="animal-photo animal-photo-turkeys" data-aos><img src="/images/mubok-turkey-tom.png" alt="Tom turkey displaying its fan tail" loading="lazy"/><span>14 / TURKEY TOM</span><h3>Proud farm<br/><em>birds.</em></h3></article>
           <article class="animal-photo animal-photo-turkeys" data-aos><img src="/images/mubok-turkeys-toms.png" alt="Two tom turkeys displaying their fan tails" loading="lazy"/><span>15 / TURKEY TOMS</span><h3>A pair of<br/><em>turkeys.</em></h3></article>
-          <article class="animal-photo animal-photo-guinea" data-aos><img src="/images/mubok-guinea-fowl-pair.png" alt="Pair of helmeted guinea fowl in a grassy pen" loading="lazy"/><span>16 / GUINEA FOWL</span><h3>Guinea fowl<br/><em>pair.</em></h3></article>
+          <article class="animal-photo animal-photo-guinea" data-aos><img src="/images/mubok-guinea-fowl.jpg" alt="Helmeted guinea fowl standing together near water" loading="lazy"/><span>16 / GUINEA FOWL</span><h3>Guinea fowl<br/><em>flock.</em></h3></article>
         </div>
       </div>
     </section>
