@@ -285,6 +285,7 @@ const page = String.raw`<!-- ===== NAVBAR ===== -->
               <a class="founder-source" href="https://www.muslimscientists.org/hafiz-mubarak-kukoyi" target="_blank" rel="noreferrer">Read his professional profile ↗</a>
             </div>
           </div>
+          <div class="consulting-mark"><img src="/images/mubok-consultant-logo.jpeg" alt="Mubok Consultant logo" loading="lazy"/><span><small>ALSO FROM MUBOK</small><strong>Mubok Consultant</strong></span></div>
           <ul class="about-checklist">
             <li>
               <span class="checkmark">
@@ -483,6 +484,9 @@ const page = String.raw`<!-- ===== NAVBAR ===== -->
           </div>
           <p>Crop farming, animal husbandry, and delivery come together at Mubok Farms Limited. Explore the work behind the harvest and tell us what you need.</p>
         </div>
+        <section class="palm-feature" aria-label="Palm fruit harvest at Mubok Farm" data-aos>
+          <div class="palm-feature-copy"><span>FROM THE PALM GROVE</span><h3>Harvested from the land.<br/><em>Rooted in Ilaro.</em></h3><p>A closer look at palm fruit and the landscapes around Mubok Farm.</p></div>
+        </section>
         <div class="profile-grid">
           <article class="profile-card profile-crops" data-aos>
             <img src="/images/farm-field.jpg" alt="Rows of crops growing across a green farm field" loading="lazy" />
@@ -501,6 +505,18 @@ const page = String.raw`<!-- ===== NAVBAR ===== -->
             <p>Based in Jamia, Ilaro, Mubok Farm brings traditional farming knowledge together with thoughtful, sustainable methods.</p>
             <a href="https://www.google.com/maps/search/?api=1&amp;query=Jamia%2C%20Ilaro%2C%20Ogun%20State%2C%20Nigeria" target="_blank" rel="noreferrer" class="profile-arrow">Find us in Ilaro <b>↗</b></a>
           </aside>
+        </div>
+        <div class="farm-life-heading" data-aos><span class="section-label">The work behind the harvest</span><h3>People, animals &amp; <em>growing things.</em></h3></div>
+        <div class="farm-life-gallery">
+          <article class="farm-life-card" data-aos><img src="/images/farm-animal-care-1.jpeg" alt="Farm worker tending to a young calf" loading="lazy"/><div><span>ANIMAL HUSBANDRY</span><h4>Hands-on animal care</h4></div></article>
+          <article class="farm-life-card" data-aos><img src="/images/farm-animal-care-2.jpeg" alt="Farmer caring for a calf on the farm" loading="lazy"/><div><span>DAILY FARM LIFE</span><h4>Care for the herd</h4></div></article>
+          <article class="farm-life-card" data-aos><img src="/images/farm-animal-care-3.jpeg" alt="Farmer gently checking on a resting calf" loading="lazy"/><div><span>ANIMAL WELFARE</span><h4>Gentle daily attention</h4></div></article>
+          <article class="farm-life-card" data-aos><img src="/images/farm-animal-care-4.jpeg" alt="Farmer looking after a young calf" loading="lazy"/><div><span>FARM CARE</span><h4>Looking after young stock</h4></div></article>
+          <article class="farm-life-card" data-aos><img src="/images/farm-maize-harvest.jpeg" alt="Farm worker holding freshly harvested maize cobs" loading="lazy"/><div><span>FIELD TO HARVEST</span><h4>Fresh maize</h4></div></article>
+          <article class="farm-life-card" data-aos><img src="/images/farm-seedling-care.jpeg" alt="Farmer tending a young plant in a nursery bed" loading="lazy"/><div><span>GROWING FOR TOMORROW</span><h4>Care for new seedlings</h4></div></article>
+          <article class="farm-life-card" data-aos><img src="/images/farm-cattle-herd-2.jpeg" alt="Young cattle standing together at the farm" loading="lazy"/><div><span>THE HERD</span><h4>Young cattle together</h4></div></article>
+          <article class="farm-life-card" data-aos><img src="/images/farm-calves-hut.jpeg" alt="Calves standing beside a traditional farm shelter" loading="lazy"/><div><span>FARMYARD</span><h4>Calves by the shelter</h4></div></article>
+          <article class="farm-life-card" data-aos><img src="/images/farm-cattle-walk.jpeg" alt="Calves walking together through the farmyard" loading="lazy"/><div><span>ON THE FARM</span><h4>Walking with the herd</h4></div></article>
         </div>
         <div class="farm-journey" aria-label="Our farm journey">
           <div><span>01</span><strong>Cultivate</strong><small>Seasonal crops &amp; healthy soil</small></div><i>→</i>
@@ -599,8 +615,13 @@ const page = String.raw`<!-- ===== NAVBAR ===== -->
           </div>
         </div>
 
-     <form class="contact-form" id="contactForm" data-aos novalidate>
+     <form class="contact-form" id="contactForm" action="https://send.webforms.to/wft_your_key" method="POST" data-aos novalidate>
           <h3 class="form-heading">Send Us a Message</h3>
+          <input type="hidden" name="_subject" value="New enquiry from the Mubok Farm website" />
+          <input type="hidden" name="_replyto" id="webformsReplyTo" value="" />
+          <input type="hidden" name="_start_time" id="webformsStartTime" value="" />
+          <input type="hidden" name="_page" id="webformsPage" value="" />
+          <div aria-hidden="true" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0"><label for="webformsWebsite">Leave this field empty</label><input id="webformsWebsite" type="text" name="_gotcha" tabindex="-1" autocomplete="off" /></div>
           <div class="form-row">
             <div class="form-group">
               <label for="name">Full Name</label>
@@ -687,15 +708,9 @@ function App() {
     const site = document.createElement('script');
     site.src = '/site.js';
     document.body.appendChild(site);
-    const sdk = document.createElement('script');
-    sdk.src = 'https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js';
-    sdk.onload = () => {
-      window.emailjs.init('CF5JLlZVt-VrpKv1b');
-      const behavior = document.createElement('script');
-      behavior.src = '/script.js';
-      document.body.appendChild(behavior);
-    };
-    document.body.appendChild(sdk);
+    const behavior = document.createElement('script');
+    behavior.src = '/script.js';
+    document.body.appendChild(behavior);
   }, []);
 
   return <div dangerouslySetInnerHTML={{ __html: page }} />;

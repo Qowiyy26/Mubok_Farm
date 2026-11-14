@@ -684,6 +684,11 @@ body::before {
 .founder-card h3 { margin:.15rem 0 .25rem; color:var(--c-earth); font:600 1.8rem/1.1 var(--ff-head); }
 .founder-card p { color:var(--c-stone); font-size:.88rem; line-height:1.6; }
 .founder-source { display:inline-block; margin-top:.65rem; color:var(--c-green); font-size:.75rem; font-weight:600; text-decoration:underline; text-underline-offset:3px; }
+.consulting-mark { display:flex; align-items:center; gap:.85rem; width:max-content; max-width:100%; margin:-.8rem 0 1.4rem; padding:.55rem .8rem; border:1px solid rgba(16,39,29,.12); background:#fbf8ef; }
+.consulting-mark img { width:58px; height:58px; object-fit:contain; }
+.consulting-mark span,.consulting-mark small,.consulting-mark strong { display:block; }
+.consulting-mark small { color:var(--c-stone); font-size:.56rem; font-weight:700; letter-spacing:.14em; }
+.consulting-mark strong { color:var(--c-green); font:600 1.15rem/1.15 var(--ff-head); }
 @media(max-width:540px) { .founder-card { grid-template-columns:88px 1fr; gap:.8rem; padding:.75rem; } .founder-portrait { width:88px; height:120px; } }
 
 .about-checklist {
@@ -1176,6 +1181,23 @@ body { background-image: radial-gradient(#b99a5220 .65px, transparent .65px); ba
 .profile-note p { color:var(--c-stone); font-size:.87rem; }
 .profile-arrow { display:flex; justify-content:space-between; width:100%; margin-top:1.2rem; padding-top:.85rem; border-top:1px solid rgba(16,39,29,.15); color:var(--c-green); font-size:.8rem; font-weight:600; }
 .profile-arrow b { font-size:1.1rem; }
+.palm-feature { position:relative; display:flex; align-items:flex-end; min-height:370px; margin:0 0 1rem; overflow:hidden; isolation:isolate; color:#fff; background:#172b20 linear-gradient(90deg,rgba(7,28,20,.9),rgba(7,28,20,.42) 56%,rgba(7,28,20,.12)),url('/images/farm-palm-harvest.jpg') center 54%/cover no-repeat; }
+.palm-feature-copy { max-width:640px; padding:clamp(1.5rem,5vw,3.5rem); }
+.palm-feature-copy > span { color:var(--c-gold-lt); font-size:.67rem; font-weight:700; letter-spacing:.2em; }
+.palm-feature-copy h3 { margin:.6rem 0; font:600 clamp(2.1rem,4.6vw,4rem)/.98 var(--ff-head); }
+.palm-feature-copy h3 em { color:var(--c-gold-lt); }
+.palm-feature-copy p { max-width:410px; color:rgba(255,255,255,.8); font-size:.95rem; }
+.farm-life-heading { margin:3rem 0 1.25rem; }
+.farm-life-heading h3 { margin-top:.35rem; font:600 clamp(2rem,3.7vw,3.25rem)/1 var(--ff-head); color:var(--c-earth); }
+.farm-life-heading h3 em { color:var(--c-green); }
+.farm-life-gallery { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:.85rem; }
+.farm-life-card { position:relative; min-height:300px; overflow:hidden; isolation:isolate; color:#fff; background:#183b2b; }
+.farm-life-card::after { content:''; position:absolute; inset:0; z-index:-1; background:linear-gradient(0deg,rgba(5,24,17,.86),rgba(5,24,17,0) 68%); }
+.farm-life-card img { position:absolute; inset:0; z-index:-2; width:100%; height:100%; object-fit:cover; transition:transform .65s var(--ease); }
+.farm-life-card:hover img { transform:scale(1.045); }
+.farm-life-card > div { position:absolute; left:1rem; right:1rem; bottom:1rem; }
+.farm-life-card > div > span { color:var(--c-gold-lt); font-size:.58rem; font-weight:700; letter-spacing:.15em; }
+.farm-life-card h4 { margin-top:.25rem; font:600 1.55rem/1.05 var(--ff-head); }
 .location-link { display:inline-block; margin-top:.25rem; color:var(--c-green); font-size:.78rem; font-weight:600; }
 .farm-journey { display:flex; align-items:center; justify-content:space-between; gap:1rem; margin-top:2.5rem; padding:1.1rem 1.5rem; border-block:1px solid rgba(16,39,29,.18); }
 .farm-journey > div { display:grid; grid-template-columns:auto 1fr; column-gap:.65rem; align-items:center; }
@@ -1201,7 +1223,8 @@ body { background-image: radial-gradient(#b99a5220 .65px, transparent .65px); ba
 .faq-list details[open] summary::after { content:'−'; }
 .faq-list details p { max-width:650px; padding:0 1rem 1rem 0; color:var(--c-stone); font-size:.9rem; }
 @media(max-width:900px) { .profile-grid { grid-template-columns:1fr 1fr; } .profile-note { grid-column:1/-1; min-height:260px; } }
-@media(max-width:600px) { .profile-heading { display:block; } .profile-heading > p { margin-top:1rem; } .profile-grid { grid-template-columns:1fr; } .profile-card { min-height:360px; } .profile-note { grid-column:auto; min-height:0; } .farm-journey { align-items:flex-start; flex-direction:column; gap:.85rem; } .farm-journey > i { display:none; } }
+@media(max-width:900px) { .farm-life-gallery { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media(max-width:600px) { .profile-heading { display:block; } .profile-heading > p { margin-top:1rem; } .profile-grid { grid-template-columns:1fr; } .profile-card { min-height:360px; } .profile-note { grid-column:auto; min-height:0; } .palm-feature { min-height:330px; background-position:57% center; } .farm-life-gallery { grid-template-columns:1fr; } .farm-life-card { min-height:280px; } .farm-journey { align-items:flex-start; flex-direction:column; gap:.85rem; } .farm-journey > i { display:none; } }
 @media(max-width:760px) { .guide-grid,.faq-wrap { grid-template-columns:1fr; gap:2rem; } .faq-wrap { margin-top:3rem; } }
 
 /* Public animal gallery and admin-managed farm shop */
