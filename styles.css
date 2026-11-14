@@ -1082,7 +1082,7 @@ input:focus ~ .field-icon,
     transition-duration: .01ms !important;
   }
 }
-.hero-bg { background: linear-gradient(90deg, rgba(22,30,17,.88) 0%, rgba(22,30,17,.68) 52%, rgba(22,30,17,.25) 100%), url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=2200&q=85') center/cover no-repeat; }
+.hero-bg { background: linear-gradient(90deg, rgba(22,30,17,.88) 0%, rgba(22,30,17,.68) 52%, rgba(22,30,17,.25) 100%), url('/images/farm-field.jpg') center/cover no-repeat; }
 
 
 /* Mubok Farms identity and editorial farm details */
@@ -1109,7 +1109,7 @@ body { background-image: radial-gradient(#b99a5220 .65px, transparent .65px); ba
 .brand-mark { width: 58px; height: 58px; border-radius: 50%; object-fit: cover; border: 2px solid var(--c-gold); box-shadow: 0 0 0 3px rgba(16,39,29,.8), 0 0 0 4px rgba(226,189,98,.65); }
 .navbar.scrolled .brand-mark { box-shadow: 0 0 0 3px var(--c-cream), 0 0 0 4px var(--c-gold); }
 .hero { min-height: min(900px, 100svh); }
-.hero-bg { background: linear-gradient(90deg, rgba(10,30,21,.9) 0%, rgba(10,30,21,.69) 48%, rgba(10,30,21,.17) 100%), linear-gradient(0deg, rgba(10,30,21,.36), transparent 42%), url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=2200&q=85') center/cover no-repeat; }
+.hero-bg { background: linear-gradient(90deg, rgba(10,30,21,.9) 0%, rgba(10,30,21,.69) 48%, rgba(10,30,21,.17) 100%), linear-gradient(0deg, rgba(10,30,21,.36), transparent 42%), url('/images/farm-field.jpg') center/cover no-repeat; }
 .hero-content { max-width: 1180px; padding-top: calc(var(--nav-h) + 5rem); }
 .hero-title { max-width: 760px; font-size: clamp(3.3rem, 8vw, 6.7rem); letter-spacing: -.035em; }
 .hero-badge { border-color: rgba(226,189,98,.55); background: rgba(13,40,28,.54); }

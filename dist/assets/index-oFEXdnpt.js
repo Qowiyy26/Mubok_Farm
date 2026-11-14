@@ -10,7 +10,7 @@ Error generating stack: `+e.message+`
   <header class="navbar" id="navbar">
     <div class="nav-container">
       <a href="#hero" class="logo" aria-label="Mubok Farm Home">
-        <img class="brand-mark" src="/mubok-farms-logo.jpg" alt="Mubok Farms Limited logo"/>
+        <img class="brand-mark" src="/images/mubok-farms-logo.jpg" alt="Mubok Farms Limited logo"/>
         <span class="logo-wordmark">Mubok <em>Farm</em></span>
       </a>
       <nav class="nav-links" id="navLinks" aria-label="Main navigation">
@@ -281,7 +281,7 @@ Error generating stack: `+e.message+`
           <p class="about-intro">Mubok Farms Limited is based in Jamia, Ilaro, Ogun State, Nigeria. Since 2005, the farm has brought crop farming and animal husbandry together, serving people looking for farm produce and livestock from a local source.</p>
           <p class="about-intro about-detail-copy">The farm grows maize, sorghum, and seasonal vegetables, and raises cows and bulls, goats, sheep and rams, ducks, turkeys, and guinea fowl. Farm-to-door delivery is available as a service. Because harvests and livestock change over time, contact Mubok to confirm what is currently available, prices, quantities, and delivery to your area.</p>
           <div class="founder-card">
-            <img class="founder-portrait" src="https://images.squarespace-cdn.com/content/v1/5b731ea8297114d306d86448/971211cc-eef1-4206-b0d1-99eb4e8a84be/Hafiz%2BMubarak%2BKukoyi%2BQSS%2BPhoto%2B2023-01-13.png?format=1000w" alt="Portrait of Dr. Hafiz Mubarak Kukoyi" loading="lazy"/>
+            <img class="founder-portrait" src="/images/founder-hafiz-mubarak-kukoyi.png" alt="Portrait of Dr. Hafiz Mubarak Kukoyi" loading="lazy"/>
             <div class="founder-bio">
               <span>Founder of Mubok Farm</span>
               <h3>Afiz Kukoyi Mubarak</h3>
@@ -346,7 +346,7 @@ Error generating stack: `+e.message+`
         <div class="livestock-grid">
 
           <div class="lv-card" data-aos>
-            <img class="lv-photo" src="https://images.unsplash.com/photo-1662661879768-7d758fea315d?auto=format&amp;fit=crop&amp;w=700&amp;q=85" alt="Cattle grazing in a green pasture" loading="lazy"/>
+            <img class="lv-photo" src="/images/farm-cattle.jpg" alt="Cattle grazing in a green pasture" loading="lazy"/>
             <div class="lv-icon">
               <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <path d="M10 21c0-2 1.5-4 3.5-5L16 15v-4h4v3.5l3-1h6l3 1V11h4v4l2.5 1c2 1 3.5 3 3.5 5v8c0 2-1 3.5-2.5 4.5V38h-5v-3H15v3h-5v-4.5C8.5 32.5 8 31 8 29v-8z"/>
@@ -362,7 +362,7 @@ Error generating stack: `+e.message+`
           </div>
 
           <div class="lv-card" data-aos>
-            <img class="lv-photo" src="https://images.unsplash.com/photo-1524024973431-2ad916746881?auto=format&amp;fit=crop&amp;w=700&amp;q=85" alt="Goat standing outdoors" loading="lazy"/>
+            <img class="lv-photo" src="/images/farm-goat.jpg" alt="Goat standing outdoors" loading="lazy"/>
             <div class="lv-icon">
               <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <ellipse cx="22" cy="28" rx="13" ry="9"/>
@@ -381,7 +381,7 @@ Error generating stack: `+e.message+`
           </div>
 
           <div class="lv-card" data-aos>
-            <img class="lv-photo" src="https://images.unsplash.com/photo-1484557985045-edf25e08da73?auto=format&amp;fit=crop&amp;w=700&amp;q=85" alt="Sheep in a pasture" loading="lazy"/>
+            <img class="lv-photo" src="/images/farm-sheep.jpg" alt="Sheep in a pasture" loading="lazy"/>
             <div class="lv-icon">
               <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <ellipse cx="22" cy="27" rx="13" ry="10"/>
@@ -400,7 +400,7 @@ Error generating stack: `+e.message+`
           </div>
 
           <div class="lv-card" data-aos>
-            <img class="lv-photo" src="https://images.unsplash.com/photo-1725795126804-eb2076a3d193?auto=format&amp;fit=crop&amp;w=700&amp;q=85" alt="Ducks standing beside a river" loading="lazy"/>
+            <img class="lv-photo" src="/images/farm-ducks.jpg" alt="Ducks standing beside a river" loading="lazy"/>
             <div class="lv-icon">
               <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <ellipse cx="22" cy="29" rx="11" ry="9"/>
@@ -419,13 +419,13 @@ Error generating stack: `+e.message+`
           </div>
 
           <div class="lv-card" data-aos>
-            <img class="lv-photo" src="https://images.unsplash.com/photo-1541648223008-a0371414815c?auto=format&amp;fit=crop&amp;w=700&amp;q=85" alt="Turkey standing in grass" loading="lazy"/>
+            <img class="lv-photo" src="/images/farm-turkey.jpg" alt="Turkey standing in grass" loading="lazy"/>
             <div class="lv-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M24 40c-8 0-13-6-13-14 0-6 5-11 13-13 8 2 13 7 13 13 0 8-5 14-13 14z"/><path d="M24 13V7m0 0-4 4m4-4 4 4m-17 8-5-2m32 2 5-2M18 39v4m12-4v4"/><circle cx="28" cy="19" r="1" fill="currentColor"/></svg></div>
             <h4>Turkeys</h4><p>Hens and toms raised at Mubok Farm. Ask us about current availability.</p>
           </div>
 
           <div class="lv-card" data-aos>
-            <img class="lv-photo" src="https://upload.wikimedia.org/wikipedia/commons/1/10/Guinea_fowls.jpg" alt="Helmeted guinea fowl outdoors" loading="lazy"/>
+            <img class="lv-photo" src="/images/guinea-fowl.jpg" alt="Helmeted guinea fowl outdoors" loading="lazy"/>
             <div class="lv-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 28c0-8 5-13 13-13s13 5 13 13-5 12-13 12-13-4-13-12z"/><path d="M24 15V9l5 4m-18 9-5-3m31 3 5-3M18 39v4m12-4v4"/><circle cx="29" cy="22" r="1" fill="currentColor"/></svg></div>
             <h4>Guinea Fowl</h4><p>Male and female guinea fowl. Contact us to ask about current availability.</p>
           </div>
@@ -443,13 +443,13 @@ Error generating stack: `+e.message+`
           <p class="section-desc">Meet our cows and bulls, goats, sheep and rams, ducks, turkeys, and guinea fowl. Ask us about current availability.</p>
         </div>
         <div class="animal-photo-grid">
-          <article class="animal-photo animal-photo-cattle" data-aos><img src="https://images.unsplash.com/photo-1662661879768-7d758fea315d?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Cattle grazing together in a pasture" loading="lazy"/><span>01 / COWS &amp; BULLS</span><h3>Strong roots.<br/><em>Healthy herds.</em></h3></article>
-          <article class="animal-photo animal-photo-goat" data-aos><img src="https://images.unsplash.com/photo-1524024973431-2ad916746881?auto=format&amp;fit=crop&amp;w=800&amp;q=85" alt="Goat standing outdoors on a farm" loading="lazy"/><span>02 / GOATS</span><h3>Does &amp; bucks.</h3></article>
-          <article class="animal-photo animal-photo-sheep" data-aos><img src="https://images.unsplash.com/photo-1484557985045-edf25e08da73?auto=format&amp;fit=crop&amp;w=800&amp;q=85" alt="Sheep in a green field" loading="lazy"/><span>03 / SHEEP &amp; RAMS</span><h3>Ewes &amp; rams.</h3></article>
-          <article class="animal-photo animal-photo-ducks" data-aos><img src="https://images.unsplash.com/photo-1725795126804-eb2076a3d193?auto=format&amp;fit=crop&amp;w=800&amp;q=85" alt="Ducks standing beside a river" loading="lazy"/><span>04 / DUCKS</span><h3>Ducks &amp; drakes.</h3></article>
-          <article class="animal-photo animal-photo-turkeys" data-aos><img src="https://images.unsplash.com/photo-1541648223008-a0371414815c?auto=format&amp;fit=crop&amp;w=800&amp;q=85" alt="Turkey standing in grass" loading="lazy"/><span>05 / TURKEYS</span><h3>Hens &amp; toms.</h3></article>
-          <article class="animal-photo animal-photo-guinea" data-aos><img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Guinea_fowls.jpg" alt="Helmeted guinea fowl outdoors" loading="lazy"/><span>06 / GUINEA FOWL</span><h3>Male &amp; female<br/><em>guinea fowl.</em></h3><small class="photo-credit">Representative photo · <a href="https://commons.wikimedia.org/wiki/File:Guinea_fowls.jpg" target="_blank" rel="noreferrer">Fanny Schertzer / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by/2.5/" target="_blank" rel="noreferrer">CC BY 2.5</a></small></article>
-          <article class="animal-photo animal-photo-palms" data-aos><img src="https://images.unsplash.com/photo-1677137263546-8695fb895a9d?auto=format&amp;fit=crop&amp;w=1400&amp;q=85" alt="Palm trees in a lush green field" loading="lazy"/><span>07 / FARM LANDSCAPE</span><h3>Palm trees.<br/><em>Green horizons.</em></h3></article>
+          <article class="animal-photo animal-photo-cattle" data-aos><img src="/images/farm-cattle.jpg" alt="Cattle grazing together in a pasture" loading="lazy"/><span>01 / COWS &amp; BULLS</span><h3>Strong roots.<br/><em>Healthy herds.</em></h3></article>
+          <article class="animal-photo animal-photo-goat" data-aos><img src="/images/farm-goat.jpg" alt="Goat standing outdoors on a farm" loading="lazy"/><span>02 / GOATS</span><h3>Does &amp; bucks.</h3></article>
+          <article class="animal-photo animal-photo-sheep" data-aos><img src="/images/farm-sheep.jpg" alt="Sheep in a green field" loading="lazy"/><span>03 / SHEEP &amp; RAMS</span><h3>Ewes &amp; rams.</h3></article>
+          <article class="animal-photo animal-photo-ducks" data-aos><img src="/images/farm-ducks.jpg" alt="Ducks standing beside a river" loading="lazy"/><span>04 / DUCKS</span><h3>Ducks &amp; drakes.</h3></article>
+          <article class="animal-photo animal-photo-turkeys" data-aos><img src="/images/farm-turkey.jpg" alt="Turkey standing in grass" loading="lazy"/><span>05 / TURKEYS</span><h3>Hens &amp; toms.</h3></article>
+          <article class="animal-photo animal-photo-guinea" data-aos><img src="/images/guinea-fowl.jpg" alt="Helmeted guinea fowl outdoors" loading="lazy"/><span>06 / GUINEA FOWL</span><h3>Male &amp; female<br/><em>guinea fowl.</em></h3><small class="photo-credit">Representative photo · <a href="https://commons.wikimedia.org/wiki/File:Guinea_fowls.jpg" target="_blank" rel="noreferrer">Fanny Schertzer / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by/2.5/" target="_blank" rel="noreferrer">CC BY 2.5</a></small></article>
+          <article class="animal-photo animal-photo-palms" data-aos><img src="/images/farm-palms.jpg" alt="Palm trees in a lush green field" loading="lazy"/><span>07 / FARM LANDSCAPE</span><h3>Palm trees.<br/><em>Green horizons.</em></h3></article>
         </div>
       </div>
     </section>
@@ -474,17 +474,17 @@ Error generating stack: `+e.message+`
         </div>
         <div class="profile-grid">
           <article class="profile-card profile-crops" data-aos>
-            <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1100&q=85" alt="Rows of crops growing across a green farm field" loading="lazy" />
+            <img src="/images/farm-field.jpg" alt="Rows of crops growing across a green farm field" loading="lazy" />
             <div class="profile-overlay"></div>
             <div class="profile-copy"><span>01 / CROPS</span><h3>Grown with the seasons.</h3><p>Maize, sorghum, vegetables, and other seasonal produce from our fields.</p><div class="profile-tags"><span>Maize</span><span>Sorghum</span><span>Vegetables</span></div><a href="#contact">Ask about availability <b>↗</b></a></div>
           </article>
           <article class="profile-card profile-herd" data-aos>
-            <img src="https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&w=1000&q=85" alt="Cattle grazing on open pasture" loading="lazy" />
+            <img src="/images/farm-pasture-cattle.jpg" alt="Cattle grazing on open pasture" loading="lazy" />
             <div class="profile-overlay"></div>
             <div class="profile-copy"><span>02 / ANIMAL HUSBANDRY</span><h3>Raised with care.</h3><p>Cows and bulls, goats, sheep and rams, ducks, turkeys, and guinea fowl are part of the Mubok farm story.</p><div class="profile-tags"><span>Cows &amp; bulls</span><span>Goats</span><span>Sheep &amp; rams</span><span>Ducks</span><span>Turkeys</span><span>Guinea fowl</span></div><a href="#livestock">Meet the livestock <b>↗</b></a></div>
           </article>
           <aside class="profile-note" data-aos>
-            <img src="/mubok-farms-logo.jpg" alt="Mubok Farms Limited badge" loading="lazy" />
+            <img src="/images/mubok-farms-logo.jpg" alt="Mubok Farms Limited badge" loading="lazy" />
             <span class="section-label">Rooted in Ogun State</span>
             <h3>Good farming is a relationship with the land.</h3>
             <p>Based in Jamia, Ilaro, Mubok Farm brings traditional farming knowledge together with thoughtful, sustainable methods.</p>
@@ -527,7 +527,7 @@ Error generating stack: `+e.message+`
     <!-- ===== ADMIN ACCESS ===== -->
     <dialog class="admin-dialog" id="adminDialog" aria-labelledby="adminTitle">
       <div class="admin-shell"><button type="button" class="admin-close" data-admin-close aria-label="Close admin panel">×</button>
-        <div class="admin-brand"><img src="/mubok-farms-logo.jpg" alt=""/><span>Farm management</span></div>
+        <div class="admin-brand"><img src="/images/mubok-farms-logo.jpg" alt=""/><span>Farm management</span></div>
         <section class="admin-auth" id="adminAuth">
           <span class="section-label">Private area</span><h2 id="adminTitle">Admin <em>access</em></h2>
           <p id="adminAuthIntro">Sign in to update product listings and your password.</p>
@@ -640,7 +640,7 @@ Error generating stack: `+e.message+`
       <div class="footer-top">
         <div class="footer-brand">
           <a href="#hero" class="logo footer-logo">
-            <img class="brand-mark" src="/mubok-farms-logo.jpg" alt="Mubok Farms Limited logo"/>
+            <img class="brand-mark" src="/images/mubok-farms-logo.jpg" alt="Mubok Farms Limited logo"/>
             <span class="logo-wordmark">Mubok <em>Farm</em></span>
           </a>
           <p>From our land to your table — with integrity and pride.</p>

@@ -8,10 +8,10 @@
   const productMessage = $('#productMessage');
   const passwordMessage = $('#passwordMessage');
   const FALLBACK_IMAGES = {
-    Crops: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=900&q=80',
-    Livestock: 'https://images.unsplash.com/photo-1662661879768-7d758fea315d?auto=format&fit=crop&w=900&q=80',
-    'Animal products': 'https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?auto=format&fit=crop&w=900&q=80',
-    Other: '/mubok-farms-logo.jpg',
+    Crops: '/images/farm-field.jpg',
+    Livestock: '/images/farm-cattle.jpg',
+    'Animal products': '/images/farm-poultry.jpg',
+    Other: '/images/mubok-farms-logo.jpg',
   };
   const money = new Intl.NumberFormat('en-NG', { style: 'currency', currency: 'NGN', maximumFractionDigits: 2 });
 
