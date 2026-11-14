@@ -1,7 +1,7 @@
 (function () {
   'use strict';
-  var SERVICE_ID  = 'service_r3o0k3e';   
-  var TEMPLATE_ID = 'template_eq7tz74';  
+  var SERVICE_ID  = 'service_r3o0k3e';
+  var TEMPLATE_ID = 'template_eq7tz74';
 
 
 

@@ -116,7 +116,7 @@ const page = String.raw`<!-- ===== NAVBAR ===== -->
               </svg>
             </div>
             <h3>Livestock Rearing</h3>
-            <p>Cows and bulls, goats, sheep and rams, ducks, turkeys, and guinea fowl. Ask us about current animals and availability.</p>
+            <p>Cows and bulls, goats, sheep and rams, chickens, ducks, turkeys, and guinea fowl. Ask us about current animals and availability.</p>
             <a href="#contact" class="card-link">
               Enquire
               <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
@@ -275,7 +275,7 @@ const page = String.raw`<!-- ===== NAVBAR ===== -->
           <span class="section-label">Our Story</span>
           <h2 class="section-title">A farm with roots in <em>Ilaro.</em></h2>
           <p class="about-intro">Mubok Farms Limited is based in Jamia, Ilaro, Ogun State, Nigeria. Since 2005, the farm has brought crop farming and animal husbandry together, serving people looking for farm produce and livestock from a local source.</p>
-          <p class="about-intro about-detail-copy">The farm grows maize, sorghum, and seasonal vegetables, and raises cows and bulls, goats, sheep and rams, ducks, turkeys, and guinea fowl. Farm-to-door delivery is available as a service. Because harvests and livestock change over time, contact Mubok to confirm what is currently available, prices, quantities, and delivery to your area.</p>
+          <p class="about-intro about-detail-copy">The farm grows maize, sorghum, and seasonal vegetables, and raises cows and bulls, goats, sheep and rams, chickens, ducks, turkeys, and guinea fowl. Farm-to-door delivery is available as a service. Because harvests and livestock change over time, contact Mubok to confirm what is currently available, prices, quantities, and delivery to your area.</p>
           <div class="founder-card">
             <img class="founder-portrait" src="/images/founder-hafiz-mubarak-kukoyi.png" alt="Portrait of Dr. Hafiz Mubarak Kukoyi" loading="lazy"/>
             <div class="founder-bio">
@@ -301,7 +301,7 @@ const page = String.raw`<!-- ===== NAVBAR ===== -->
               </span>
               <div>
                 <strong>Livestock</strong>
-                <p>Cows and bulls, does and bucks, ewes and rams, ducks, turkeys, and guinea fowl.</p>
+                <p>Cows and bulls, does and bucks, ewes and rams, hens and roosters, ducks, turkeys, and guinea fowl.</p>
               </div>
             </li>
             <li>
@@ -337,7 +337,7 @@ const page = String.raw`<!-- ===== NAVBAR ===== -->
         <div class="section-header light">
           <span class="section-label">Our Animals</span>
           <h2 class="section-title">Meet the Mubok <em>livestock</em></h2>
-          <p class="section-desc">Cows and bulls, goats, sheep and rams, ducks, turkeys, and guinea fowl. Contact us about the animals currently available.</p>
+          <p class="section-desc">Cows and bulls, goats, sheep and rams, chickens, ducks, turkeys, and guinea fowl. Contact us about the animals currently available.</p>
         </div>
         <div class="livestock-grid">
 
@@ -415,6 +415,12 @@ const page = String.raw`<!-- ===== NAVBAR ===== -->
           </div>
 
           <div class="lv-card" data-aos>
+            <img class="lv-photo" src="/images/farm-chickens.jpg" alt="Hens and a rooster in a farmyard" loading="lazy"/>
+            <div class="lv-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 29c0-7 5-12 12-12 6 0 10 4 10 10v10H15c-1-2-2-5-2-8z"/><path d="M23 17c-2-3-1-6 2-8 1 3 4 4 4 7m-17 7-5-3m29 7 7 2M19 37v5m12-5v5"/><circle cx="29" cy="22" r="1" fill="currentColor"/></svg></div>
+            <h4>Chickens</h4><p>Hens and roosters raised at Mubok Farm. Ask us about current availability.</p>
+          </div>
+
+          <div class="lv-card" data-aos>
             <img class="lv-photo" src="/images/farm-turkey.jpg" alt="Turkey standing in grass" loading="lazy"/>
             <div class="lv-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M24 40c-8 0-13-6-13-14 0-6 5-11 13-13 8 2 13 7 13 13 0 8-5 14-13 14z"/><path d="M24 13V7m0 0-4 4m4-4 4 4m-17 8-5-2m32 2 5-2M18 39v4m12-4v4"/><circle cx="28" cy="19" r="1" fill="currentColor"/></svg></div>
             <h4>Turkeys</h4><p>Hens and toms raised at Mubok Farm. Ask us about current availability.</p>
@@ -436,16 +442,17 @@ const page = String.raw`<!-- ===== NAVBAR ===== -->
         <div class="section-header">
           <span class="section-label">Life on the farm</span>
           <h2 class="section-title">Meet the <em>animals.</em></h2>
-          <p class="section-desc">Meet our cows and bulls, goats, sheep and rams, ducks, turkeys, and guinea fowl. Ask us about current availability.</p>
+          <p class="section-desc">Meet our cows and bulls, goats, sheep and rams, chickens, ducks, turkeys, and guinea fowl. Ask us about current availability.</p>
         </div>
         <div class="animal-photo-grid">
           <article class="animal-photo animal-photo-cattle" data-aos><img src="/images/farm-cattle.jpg" alt="Cattle grazing together in a pasture" loading="lazy"/><span>01 / COWS &amp; BULLS</span><h3>Strong roots.<br/><em>Healthy herds.</em></h3></article>
           <article class="animal-photo animal-photo-goat" data-aos><img src="/images/farm-goat.jpg" alt="Goat standing outdoors on a farm" loading="lazy"/><span>02 / GOATS</span><h3>Does &amp; bucks.</h3></article>
           <article class="animal-photo animal-photo-sheep" data-aos><img src="/images/farm-sheep.jpg" alt="Sheep in a green field" loading="lazy"/><span>03 / SHEEP &amp; RAMS</span><h3>Ewes &amp; rams.</h3></article>
           <article class="animal-photo animal-photo-ducks" data-aos><img src="/images/farm-ducks.jpg" alt="Ducks standing beside a river" loading="lazy"/><span>04 / DUCKS</span><h3>Ducks &amp; drakes.</h3></article>
-          <article class="animal-photo animal-photo-turkeys" data-aos><img src="/images/farm-turkey.jpg" alt="Turkey standing in grass" loading="lazy"/><span>05 / TURKEYS</span><h3>Hens &amp; toms.</h3></article>
-          <article class="animal-photo animal-photo-guinea" data-aos><img src="/images/guinea-fowl.jpg" alt="Helmeted guinea fowl outdoors" loading="lazy"/><span>06 / GUINEA FOWL</span><h3>Male &amp; female<br/><em>guinea fowl.</em></h3><small class="photo-credit">Representative photo · <a href="https://commons.wikimedia.org/wiki/File:Guinea_fowls.jpg" target="_blank" rel="noreferrer">Fanny Schertzer / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by/2.5/" target="_blank" rel="noreferrer">CC BY 2.5</a></small></article>
-          <article class="animal-photo animal-photo-palms" data-aos><img src="/images/farm-palms.jpg" alt="Palm trees in a lush green field" loading="lazy"/><span>07 / FARM LANDSCAPE</span><h3>Palm trees.<br/><em>Green horizons.</em></h3></article>
+          <article class="animal-photo animal-photo-chickens" data-aos><img src="/images/farm-chickens.jpg" alt="Hens and a rooster in a farmyard" loading="lazy"/><span>05 / CHICKENS</span><h3>Hens &amp; roosters.</h3></article>
+          <article class="animal-photo animal-photo-turkeys" data-aos><img src="/images/farm-turkey.jpg" alt="Turkey standing in grass" loading="lazy"/><span>06 / TURKEYS</span><h3>Hens &amp; toms.</h3></article>
+          <article class="animal-photo animal-photo-guinea" data-aos><img src="/images/guinea-fowl.jpg" alt="Helmeted guinea fowl outdoors" loading="lazy"/><span>07 / GUINEA FOWL</span><h3>Male &amp; female<br/><em>guinea fowl.</em></h3><small class="photo-credit">Representative photo · <a href="https://commons.wikimedia.org/wiki/File:Guinea_fowls.jpg" target="_blank" rel="noreferrer">Fanny Schertzer / Wikimedia Commons</a> · <a href="https://creativecommons.org/licenses/by/2.5/" target="_blank" rel="noreferrer">CC BY 2.5</a></small></article>
+          <article class="animal-photo animal-photo-palms" data-aos><img src="/images/farm-palms.jpg" alt="Palm trees in a lush green field" loading="lazy"/><span>08 / FARM LANDSCAPE</span><h3>Palm trees.<br/><em>Green horizons.</em></h3></article>
         </div>
       </div>
     </section>
@@ -477,7 +484,7 @@ const page = String.raw`<!-- ===== NAVBAR ===== -->
           <article class="profile-card profile-herd" data-aos>
             <img src="/images/farm-pasture-cattle.jpg" alt="Cattle grazing on open pasture" loading="lazy" />
             <div class="profile-overlay"></div>
-            <div class="profile-copy"><span>02 / ANIMAL HUSBANDRY</span><h3>Raised with care.</h3><p>Cows and bulls, goats, sheep and rams, ducks, turkeys, and guinea fowl are part of the Mubok farm story.</p><div class="profile-tags"><span>Cows &amp; bulls</span><span>Goats</span><span>Sheep &amp; rams</span><span>Ducks</span><span>Turkeys</span><span>Guinea fowl</span></div><a href="#livestock">Meet the livestock <b>↗</b></a></div>
+            <div class="profile-copy"><span>02 / ANIMAL HUSBANDRY</span><h3>Raised with care.</h3><p>Cows and bulls, goats, sheep and rams, chickens, ducks, turkeys, and guinea fowl are part of the Mubok farm story.</p><div class="profile-tags"><span>Cows &amp; bulls</span><span>Goats</span><span>Sheep &amp; rams</span><span>Chickens</span><span>Ducks</span><span>Turkeys</span><span>Guinea fowl</span></div><a href="#livestock">Meet the livestock <b>↗</b></a></div>
           </article>
           <aside class="profile-note" data-aos>
             <img src="/images/mubok-farms-logo.jpg" alt="Mubok Farms Limited badge" loading="lazy" />
@@ -513,7 +520,7 @@ const page = String.raw`<!-- ===== NAVBAR ===== -->
         <div><span class="section-label">Quick answers</span><h2 class="section-title">Before you <em>enquire.</em></h2></div>
         <div class="faq-list">
           <details><summary>What crops do you grow?</summary><p>Our listed crops include maize, sorghum, and seasonal vegetables. Contact us to ask what is currently available.</p></details>
-          <details><summary>What animals are raised at Mubok Farm?</summary><p>Our livestock includes cows and bulls, goats, sheep and rams, ducks, turkeys, and guinea fowl. Ask us which animals are currently available.</p></details>
+          <details><summary>What animals are raised at Mubok Farm?</summary><p>Our livestock includes cows and bulls, goats, sheep and rams, chickens, ducks, turkeys, and guinea fowl. Ask us which animals are currently available.</p></details>
           <details><summary>Do you deliver?</summary><p>Farm-to-door delivery is one of our services. Share your location and order needs so we can confirm delivery options.</p></details>
           <details><summary>Where is the farm located?</summary><p>Mubok Farm is in Jamia, Ilaro, Ogun State, Nigeria. Contact us for directions before visiting.</p></details>
         </div>

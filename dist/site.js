@@ -10,7 +10,7 @@
   const FALLBACK_IMAGES = {
     Crops: '/images/farm-field.jpg',
     Livestock: '/images/farm-cattle.jpg',
-    'Animal products': '/images/farm-poultry.jpg',
+    'Animal products': '/images/farm-chickens.jpg',
     Other: '/images/mubok-farms-logo.jpg',
   };
   const money = new Intl.NumberFormat('en-NG', { style: 'currency', currency: 'NGN', maximumFractionDigits: 2 });
